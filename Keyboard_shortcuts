@@ -1,4 +1,5 @@
 Commit
+
 Ctrl + Return 	: 	Commit staged changes
 Ctrl + Shift + Return 	: 	Prepare commit message hook
 Ctrl + S 	: 	Stage / unstage selected files
@@ -11,7 +12,8 @@ Ctrl + m 	: 	Amend last commit
 Ctrl + Shift + C 	: 	Cherry pick
   	  
       
-      Actions
+Actions
+
 Ctrl + B 	: 	Create branch
 Alt + B 	: 	Checkout branch
 T / Ctrl + T 	: 	Find files
@@ -26,7 +28,8 @@ Ctrl + R 	: 	Refresh
 
   	  	
         
-        Editing
+Editing
+
 Enter / Ctrl + E 	: 	Launch editor
 Space 	: 	Open using default application
 Shift + Space 	: 	Open parent directory
@@ -37,27 +40,29 @@ Ctrl + Shift + # 	: 	Show and hide tools
   	 
      
      
-     Remotes
+Remotes
+
 Ctrl + P 	: 	Launch the Push dialog
 Ctrl + Shift + P 	: 	Launch the Pull dialog
   	  
       
       
-      Diff
+Diff
+
 S 	: 	Stage the selected lines, or the diff hunk beneath the text cursor when nothing is selected
 Ctrl + D 	: 	View diff using `git difftool`
 Ctrl + Shift + D 	: 	View directory diff using `git difftool --dir-diff`
   	  	
         
-        
-        Browser actions
+Browser actions
+
 Ctrl + Shift + H 	: 	View history
 Ctrl + Shift + D 	: 	View diff against predecessor
 Ctrl + Alt + C 	: 	Copy SHA-1
   	  
       
       
-      Navigation
+Navigation
 H 	: 	Move left/collapse
 J / Alt + J 	: 	Move down
 K / Alt + K 	: 	Move up
@@ -65,3 +70,7 @@ L 	: 	Move right/expand
 Ctrl + J 	: 	Focus the Diff Editor
 Ctrl + K 	: 	Focus the Status tool
 Ctrl + L 	: 	Focus the Commit tool
+
+Cherry Pick
+
+Copies the changes made in a specified commit and creates a new commit on branch you checked out.
