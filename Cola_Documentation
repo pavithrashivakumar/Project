@@ -1,0 +1,84 @@
+
+SYNOPSIS
+
+git cola [options] [sub-command]
+DESCRIPTION
+
+git cola is a sleek and powerful Git GUI.
+OPTIONS
+–amend
+
+Start git cola in amend mode.
+–prompt
+
+Prompt for a Git repository. Defaults to the current directory.
+-r, –repo <path>
+
+Open the Git repository at <path>. Defaults to the current directory.
+-s, –status-filter <filter>
+
+Apply the path filter to the status widget.
+–version
+
+Print the git cola version and exit.
+-h, –help
+
+Show usage and optional arguments.
+–help-commands
+
+Show available sub-commands.
+SUB-COMMANDS
+am
+
+Apply patches.
+archive
+
+Export tarballs from Git.
+branch
+
+Create branches.
+browse
+
+Browse tracked files.
+config
+
+Configure settings.
+dag
+
+Start the git dag Git history browser.
+diff
+
+Diff changed files.
+fetch
+
+Fetch history from remote repositories.
+grep
+
+Use git grep to search for content.
+merge
+
+Merge branches.
+pull
+
+Fetch and merge remote branches.
+push
+
+Push branches to remotes.
+rebase
+
+Start an interactive rebase.
+remote
+
+Create and edit remotes.
+search
+
+Search for commits.
+stash
+
+Stash uncommitted modifications.
+tag
+
+Create tags.
+version
+
+Print the git cola version.
