@@ -13,12 +13,9 @@ Ctrl + m 	: 	Amend last commit
 Ctrl + Shift + C 	: 	Cherry pick
   	  
       
-<<<<<<< HEAD
-                Actions
-=======
+
 Actions
 
->>>>>>> Temporarybranch
 Ctrl + B 	: 	Create branch
 Alt + B 	: 	Checkout branch
 T / Ctrl + T 	: 	Find files
@@ -33,12 +30,9 @@ Ctrl + R 	: 	Refresh
 
   	  	
         
-<<<<<<< HEAD
-                 Editing
-=======
+
 Editing
 
->>>>>>> Temporarybranch
 Enter / Ctrl + E 	: 	Launch editor
 Space 	: 	Open using default application
 Shift + Space 	: 	Open parent directory
@@ -47,48 +41,31 @@ Ctrl + # 	: 	Focus tools
 Ctrl + Shift + # 	: 	Show and hide tools
 # is 1 for commit, 2 for status, 3 for diff, etc.
   	 
-     
-     
-<<<<<<< HEAD
-                 Remotes
-=======
+
 Remotes
 
->>>>>>> Temporarybranch
 Ctrl + P 	: 	Launch the Push dialog
 Ctrl + Shift + P 	: 	Launch the Pull dialog
   	  
       
       
-<<<<<<< HEAD
-                  Diff
-=======
 Diff
 
->>>>>>> Temporarybranch
 S 	: 	Stage the selected lines, or the diff hunk beneath the text cursor when nothing is selected
 Ctrl + D 	: 	View diff using `git difftool`
 Ctrl + Shift + D 	: 	View directory diff using `git difftool --dir-diff`
   	  	
         
-<<<<<<< HEAD
-        
-        Browser actions
-=======
 Browser actions
 
->>>>>>> Temporarybranch
 Ctrl + Shift + H 	: 	View history
 Ctrl + Shift + D 	: 	View diff against predecessor
 Ctrl + Alt + C 	: 	Copy SHA-1
   	  
       
-      
-<<<<<<< HEAD
-      Navigation
-=======
+
 Navigation
->>>>>>> Temporarybranch
+
 H 	: 	Move left/collapse
 J / Alt + J 	: 	Move down
 K / Alt + K 	: 	Move up
@@ -96,10 +73,9 @@ L 	: 	Move right/expand
 Ctrl + J 	: 	Focus the Diff Editor
 Ctrl + K 	: 	Focus the Status tool
 Ctrl + L 	: 	Focus the Commit tool
-<<<<<<< HEAD
-=======
+
 
 Cherry Pick
 
 Copies the changes made in a specified commit and creates a new commit on branch you checked out.
->>>>>>> Temporarybranch
+
